@@ -4,7 +4,7 @@
 
 	var link = document.getElementById('whatsapp-link');
 	var phone = (section.getAttribute('data-phone') || '').replace(/\s+/g, '');
-	var message = section.getAttribute('data-message') || 'Hello, I would like to learn more about JobSieve.';
+	var message = section.getAttribute('data-message') || 'Hello, I would like to learn more about jobsiee.';
 
 	function buildWhatsAppUrl(rawPhone, text) {
 		var normalized = rawPhone.replace(/[^\d]/g, '');
